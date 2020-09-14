@@ -73,7 +73,7 @@ body {
 
 .pictures img {
   display: inline-block;
-  max-width: 90vw;
+  max-width: 100%;
   height: auto;
   max-height: 60vh;
 }
