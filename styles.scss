@@ -32,6 +32,20 @@ body {
   h1 {
     text-transform: uppercase;
   }
+
+  h4 {
+    font-weight: normal;
+  }
+
+  ol {
+    margin-left: 2rem;
+    a {
+      font-size: 0.9rem;
+      display: block;
+      margin: 3px;
+      padding: 2px;
+    }
+  }
 }
 
 // Items
@@ -54,6 +68,8 @@ body {
 .pictures {
   white-space: nowrap;
   overflow: auto;
+  width: 100%;
+  margin: 0 auto;
   img {
     display: inline-block;
     max-width: 90vw;

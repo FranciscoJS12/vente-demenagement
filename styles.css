@@ -33,6 +33,21 @@ body {
   text-transform: uppercase;
 }
 
+.title h4 {
+  font-weight: normal;
+}
+
+.title ol {
+  margin-left: 2rem;
+}
+
+.title ol a {
+  font-size: 0.9rem;
+  display: block;
+  margin: 3px;
+  padding: 2px;
+}
+
 .item-sale {
   margin-bottom: 2rem;
   overflow: hidden;
@@ -52,6 +67,8 @@ body {
 .pictures {
   white-space: nowrap;
   overflow: auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .pictures img {
