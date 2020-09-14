@@ -18,6 +18,12 @@ body {
   overflow: hidden;
 }
 
+.sold {
+  pointer-events: none;
+  text-decoration: line-through;
+  opacity: 0.8;
+}
+
 // Title
 .title {
   background-color: #fff;
